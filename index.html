@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="./css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                green: '#4E9F0D',
+                black: '#000000',
+                fon:'#7A7A7A',
+              }
+            }
+          }
+        }
+ 
+      </script>
+</head>
+<body>
+<header>
+  
+    <div  class="back h-[760px] bg-[url('./images/bg.jpg')] bg-no-repeat bg-cover   ">
+    <div class="container  m-auto  max-w-[1169px] md:px-6 sm:max-w-[full] px-4" > 
+        
+        <nav class="flex justify-between items-center  ">
+            <div class="logo ">
+                <a href="#" class="text-white bg-green px-8 rounded py-1 text-[20px]  ">STREET88</a>
+            </div>
+            <div class="menu flex gap-8 text-green text-[18px]">
+                <a href="#" class="hover:bg-green hover:text-white py-5  hidden sm:hidden md:hidden lg:flex xl:flex  ">Корзина</a>
+                <a href="#" class="hover:bg-green hover:text-white py-5 hidden sm:hidden md:hidden lg:flex xl:flex ">Меню</a>
+                <a href="#" class="hover:bg-green hover:text-white py-5 hidden sm:hidden md:hidden lg:flex xl:flex ">О нас</a>
+                <a href="#" class="hover:bg-green hover:text-white py-5 hidden sm:hidden md:hidden lg:flex xl:flex ">Контакты</a>
+                <i class='bx bx-menu text-[44px]  flex sm:flex md:flex lg:hidden xl:hidden 2xl:hidden  '></i>
+            </div>
+  
+        </nav>
+        <div class="flex flex-col py-16   text-green ">
+            <h1 class=" py-7 font-black text-5xl md:text-6xl lg:text-7xl">Большой гамбургер</h1>
+            <h4 class="text-[36px]">говядина</h4>
+            <p class="text-white py-7  text-[18px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом, <br> - таков классический портрет гамбургера, наиболее распространенной «быстрой» еды в США, от отравления которой ежедневно на <br>больничных койках оказываются десятки тысяч американцев</p>
+        <div class="w-[200px] h-[50px] mt-20 bg-green flex justify-center items-center text-[44px] py-7 sm:w-[340px] sm:h-[100px] "> <b class="text-white font-light">14 500</b></div>
+        </div>
+      </div>
+    </div>
+
+<div class="bg-black">
+   <div class="container m-auto  max-w-[1169px] md:px-6 max-auto px-4 ">
+        <div class="flex gap-11 text-fon py-11 overflow-scroll md:overflow-auto">
+          <a href="#" class="hover:text-green text-nowrap">Гамбургеры </a>
+          <a href="#" class="hover:text-green text-nowrap">Хот доги </a>
+          <a href="#" class="hover:text-green text-nowrap">Пицца </a>
+          <a href="#" class="hover:text-green text-nowrap">Напитки </a>
+          <a href="#" class="hover:text-green text-nowrap">Соки </a>
+        </div>
+   </div>
+</div>
+<div class="bg-black">
+        <div class="container  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 md:px-6 m-auto max-w-[1169px]  px-4">
+          <div class="flex justify-center flex-col my-11">
+            <img src="./images/gam.svg" class="w-[full] " alt="gamburger">
+            <h4 class="text-green py-5">C  ГОВЯДИНОЙ</h4>
+            <p class="w-[full] text-white" >Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая <br> котлета, сдобренная майонезом и кетчупом</p>
+          </div>
+          <div class="flex justify-center flex-col my-11 ">
+            <img src="./images/gam.svg" alt="gamburger" class=" w-[full]">
+            <h4 class="text-green py-5">C  ГОВЯДИНОЙ</h4>
+            <p class="w-[full] text-white">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая <br> котлета, сдобренная майонезом и кетчупом</p>
+          </div>
+          <div class="flex justify-center flex-col  my-11">
+            <img src="./images/gam.svg" alt="gamburger" class="w-[full]">
+            <h4 class="text-green py-5">C  ГОВЯДИНОЙ</h4>
+            <p class="w-[full] text-white">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая <br> котлета, сдобренная майонезом и кетчупом</p>
+          </div>
+          <div class="flex justify-center flex-col my-11 " >
+            <img src="./images/gam.svg" alt="gamburger" class="w-[full]">
+            <h4 class="text-green py-5">C  ГОВЯДИНОЙ</h4>
+            <p class="w-[full] text-white">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая <br>котлета, сдобренная майонезом и кетчупом</p>
+          </div>
+          <div class="flex justify-center flex-col  my-11" >
+            <img src="./images/gam.svg" alt="gamburger" class="w-[full]">
+            <h4 class="text-green py-5">C  ГОВЯДИНОЙ</h4>
+            <p class="w-[full] text-white">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая <br> котлета, сдобренная майонезом и кетчупом</p>
+          </div>
+          <div class="flex justify-center flex-col   my-11 " >
+            <img src="./images/gam.svg" alt="gamburger" class="w-[full]">
+            <h4 class="text-green py-5">C  ГОВЯДИНОЙ</h4>
+            <p class="w-[full] text-white">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая <br> котлета, сдобренная майонезом и кетчупом</p>
+          </div>
+        </div>
+      </div>
+      
+
+</header>
+<main >
+
+  <div class=" last min-h-[550px]  bg-no-repeat bg-cover bg-[url('./images/section.jpg')] py-11 md:max-w-[full] md:px-6 px-4">
+<div class="container m-auto   max-w-[1169px]">
+      <div class="flex flex-col justify-center items-center ">
+          <h5 class="text-green  text-[36px]">Уникальная рецептура</h5> 
+          <img src="./images/Rectangle 10.svg" class="py-4" alt="">
+          <p  class="text-white py-7">Гамбургер является разновидностью сэндвича, состоящей из жареной рубленой котлеты, что подается внутри разрезанной круглой булки. Он обычно дополняется разнообразными приправами, к примеру, листьями салата, кетчупом и майонезом, дольками маринованного огурца, помидора или кабачка, сырым или поджаренным луком.</p>
+      <p class="text-white py-5">Будучи наиболее распространенной «быстрой» едой в США, гамбургер имеет далеко не американское происхождение. Ученые приписывают его авторство кочевникам-скифам, которые клали обжаренное мясо между двумя хлебными ломтиками. А в Новый свет «король» фаст-фуда приехал вместе с немецкими иммигрантами: его назвали, кстати, в честь Гамбурга, второго по масштабам города Германии. Официальной датой продажи первого гамбургера в США считается 27 июля 1900-го - в этот день гастроном из Нью-Хейвена предложил жителям города покупать приправленную кетчупом котлету, «зажатую» между двумя кусками булки. Изначально такая еда была прерогативой бедных слоев населения, но вскоре по всей стране стали открываться «фаст-фудовые» заведения, в которых, быстрым было не только питание, но и обслуживание, и смена клиентов. Эти общепиты взяли курс на оперативное детское питание - и для всегда занятого рабочего класса на тот момент они стали лучшим решением проблемы, где и чем быстро накормить детей.</p>
+        </div>    
+  </div>
+</div>
+<div class="back bg-black py-7">
+  
+  <div class="container m-auto   max-w-[1169px] md:max-w-[full] md:px-6">
+    <div class="flex justify-center">
+    <h3 class=" text-green text-[36px]">Наши филиалы</h3></div>
+  </div>
+</div>
+<div class="">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d383920.35610366036!2d69.66562149697263!3d41.25710967750596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1732299038616!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-[100%]"></iframe>
+</div>
+<div class="back bg-black ">
+<div class="container m-auto max-w-[1169px] px-4">
+<div class="flex justify-between py-7  items-center">
+  <div class="logo">
+      <a href="#" class="text-white bg-green px-8 rounded py-1 text-[20px]  ">STREET88</a>
+  </div>
+  <div class="text-green text-[18px] sm:text-[24px]">+998 90 980 77 23</div>
+</div>
+</div>
+<div class="flex justify-center gap-11 py-7 text-[18px] flex-wrap px-4">
+  <a href="#" class="text-white hover:text-green">Меню</a>
+  <a href="#" class="text-white hover:text-green">О нас</a>
+  <a href="#" class="text-white hover:text-green">Контакты</a>
+  <a href="#" class="text-white hover:text-green">Instagram</a>
+  <a href="#" class="text-white hover:text-green">Facebook</a>
+  <a href="#" class="text-white hover:text-green">Telegram Bot</a>
+</div>
+<div class="text-white flex justify-center  text-[14px]  pb-4">Сайт разработан в целях обучения © PROWEB 2019</div>
+</div>
+</main>
+    
+
+
+
+</body>
+</html>
